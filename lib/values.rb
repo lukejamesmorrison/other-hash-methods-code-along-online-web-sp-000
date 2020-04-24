@@ -13,4 +13,5 @@ def get_the_values(groceries)
   groceries.each do |k, v|
     values.merge(v)
   end
+  values
 end
