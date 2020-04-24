@@ -11,7 +11,7 @@ require 'pry'
 def get_the_values(groceries)
   values = []
   groceries.each do |k, v|
-    values.merge(v)
+    values.concat(v)
   end
   values
 end
